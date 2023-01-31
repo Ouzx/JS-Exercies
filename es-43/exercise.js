@@ -3,7 +3,7 @@ let user = {
   age: 30,
 };
 
-let newUser = user;
+let newUser = Object.assign({}, user);
 
 newUser.name = "Paolo";
 
