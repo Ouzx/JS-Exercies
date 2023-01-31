@@ -4,6 +4,7 @@ const smartphone = {
   price: 1300,
 };
 
+Object.freeze(smartphone);
 smartphone.price = 100;
 
 console.log(smartphone);
